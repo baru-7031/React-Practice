@@ -8,7 +8,9 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <Count />
+        <Count by="1"/>
+        <Count by="5"/>
+        <Count by="10"/>
       </div>
     );
   }
