@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.user{
+  height: 400px;
+  width: 400px;
+  margin: 20px 0px;
+  box-shadow: 10px 10px 30px rgb(221, 210, 210);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationBtn{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  width: 80%;
+  justify-content: center;
+}
+
+.paginationBtn a {
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid #2f2f2f;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.paginationBtn a:hover{
+  background: #2f2f2f;
+  color: aliceblue;
+}
+
+.paginationActive a{
+  background: #868686;
+}
